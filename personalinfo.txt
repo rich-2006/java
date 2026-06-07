@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String fullName = "Richmond Apenteng";      // String stores text
+        int age = 20;                      // int stores whole numbers
+        char gender = 'M';                 // char stores one character
+        double height = 1.75;              // double stores decimal numbers
+        float weight = 59.5f;              // float stores decimal numbers
+        boolean isStudent = true;          // boolean stores true or false
+        long phoneNumber = 233558493443L;  // long stores large numbers
+        String gradeLevel = "Level 200";   // String stores text
+
+        System.out.println("Full Name: " + fullName);
+        System.out.println("Age: " + age);
+        System.out.println("Gender: " + gender);
+        System.out.println("Height: " + height);
+        System.out.println("Weight: " + weight);
+        System.out.println("Student Status: " + isStudent);
+        System.out.println("Phone Number: " + phoneNumber);
+        System.out.println("Grade/Level: " + gradeLevel);
+    }
+}
